@@ -226,7 +226,6 @@ class ShortNameEmoji extends Module {
     }
 
     buttons[0].classList.add('emoji-active');
-    this.quill.blur();
   }
 
   close(value, trailingDelete = 0) {

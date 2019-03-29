@@ -132,6 +132,7 @@ function fn_showEmojiPalatte(quill) {
     })
   });
   fn_emojiPanelInit(panel,quill);
+  this.quill.blur();
 }
 
 function fn_emojiPanelInit(panel,quill){
